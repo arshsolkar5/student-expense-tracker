@@ -1,53 +1,58 @@
 # Student Expense Tracker (Python)
 
-A simple yet structured Python project to analyze and summarize student expenses using CSV data.
+> A Python-based data analysis project that processes and analyzes student expense data to generate meaningful insights.
 
-This project focuses on applying core Python concepts, data handling using pandas, and writing clean, modular code.
+This project demonstrates how structured financial data can be processed using **pandas**, organized using modular code, and transformed into useful summaries.
 
 ---
 
 ## Features
 
-- Load and process structured expense data from CSV files
-- Calculate total expenses
-- Perform category-wise expense analysis
-- Modular code design for scalability and readability
-- Basic error handling for file operations
+- Load and process structured expense data from CSV files  
+- Compute total expenses  
+- Perform **category-wise expense analysis using pandas**  
+- Clean and modular code design (separation of concerns)  
+- Basic error handling for file operations  
 
 ---
 
 ## Tech Stack
 
-- Python
-- Pandas
+- **Python**
+- **Pandas**
 - CSV Data Handling
 - Git & GitHub
 
 ---
 
 ## Project Structure
+
+```
 student-expense-tracker/
 │
 ├── data/
-│ └── expenses.csv
+│   └── expenses.csv
 │
 ├── src/
-│ ├── data_loader.py
-│ ├── analyzer.py
-│ └── utils.py
+│   ├── data_loader.py
+│   ├── analyzer.py
+│   └── utils.py
 │
 ├── main.py
 ├── requirements.txt
 └── README.md
+```
+
 
 ---
+
 ## How It Works
 
-1. The program loads expense data from a CSV file
-2. Data is processed using pandas
-3. Key insights are generated:
-   - Total spending
-   - Category-wise breakdown
+1. Load expense data from a CSV file  
+2. Process data using pandas  
+3. Generate key insights:
+   - Total spending  
+   - Category-wise breakdown  
 
 ---
 
@@ -66,33 +71,15 @@ python main.py
 ---
 
 ## Sample Output
+```
 Total Expenses: 5000
 Expenses by Category:
 Food: 2000
 Transport: 1500
 Entertainment: 1500
-
----
-
-## What I Learned
-
-- Working with real-world structured data (CSV)
-- Using pandas for data analysis
-- Writing modular and maintainable Python code
-- Managing projects using Git & GitHub
-
----
-
-## Future Improvements
-
-- Add data visualization (matplotlib/seaborn)
-- Monthly expense trends analysis
-- Interactive CLI input
-- Advanced insights (highest spending category, patterns)
-- Integration with databases or web interface
-
----
-
+```
 ## Author
 
 Arsh Solkar
+
+
