@@ -1,6 +1,6 @@
 # Student Expense Tracker (Python)
 
-> A Python-based data analysis project that processes and analyzes student expense data to generate meaningful insights.
+> This project marks an early step in building a strong foundation in Python, data processing, and structured problem solving.
 
 This project demonstrates how structured financial data can be processed using **pandas**, organized using modular code, and transformed into useful summaries.
 
